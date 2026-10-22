@@ -64,7 +64,7 @@ The repository also contains the Week 2 assignment scripts: a Python script that
 ```
 .
 ├── PostgreSQLusingPython_-UI_-waseem.py            # Desktop application (PyQt6 + psycopg2)
-├── Assigment-1_Database_Module_Week2_-Waseem.py    # Creates tables, loads sample data, runs 10 queries
+├── Assigment-2_Database_Module_Week2_-Waseem.py    # Creates tables, loads sample data, runs 10 queries
 ├── Assigment-1_Database_Module_Week2_-Waseem.sql   # 12 queries for the Sakila rental database
 ├── db_settings.json                                # Created on first connect (do not commit)
 └── README.md
@@ -129,10 +129,10 @@ CREATE DATABASE emp_db;
 
 ### 3. Create the tables and sample data
 
-Open `Assigment-1_Database_Module_Week2_-Waseem.py`, enter your PostgreSQL password in `DB_CONFIG`, then run:
+Open `Assigment-2_Database_Module_Week2_-Waseem.py`, enter your PostgreSQL password in `DB_CONFIG`, then run:
 
 ```bash
-python Assigment-1_Database_Module_Week2_-Waseem.py
+python Assigment-2_Database_Module_Week2_-Waseem.py
 ```
 
 > ⚠️ This script **drops and recreates** the `employees` and `departments` tables. Do not run it against a database that holds data you want to keep.
@@ -201,11 +201,11 @@ Creates the `employees` and `departments` tables, inserts 10 sample employees wi
 - You can set the `DB_PASSWORD` environment variable to provide the password without storing it in a file; it overrides the saved value.
 - **Never commit passwords.** Add `db_settings.json` to `.gitignore`:
 
-  ```gitignore
-  db_settings.json
-  __pycache__/
   ```
-- `Assigment-1_Database_Module_Week2_-Waseem.py` keeps its password in the `DB_CONFIG` dictionary. Replace it with a placeholder (or read it from an environment variable) before sharing or publishing the code.
+  db_settings.json
+
+  ```
+- `Assigment-2_Database_Module_Week2_-Waseem.py` keeps its password in the `DB_CONFIG` dictionary. Replace it with a placeholder (or read it from an environment variable) before sharing or publishing the code.
 - All data-changing statements in the application use parameterized queries. The SQL editor runs exactly what you type, so keep **Read-only mode** on unless you intend to change data.
 
 ---
