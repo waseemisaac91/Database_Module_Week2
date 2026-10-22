@@ -187,11 +187,11 @@ To add or change queries, edit the `QUERY_TEMPLATES` dictionary near the top of 
 
 ## 📝 Assignment Scripts
 
-### `Assigment-1_Database_Module_Week2_-Waseem.py`
-Creates the `employees` and `departments` tables, inserts 10 sample employees with their departments, and prints the results of 10 report queries (salary comparisons, averages per department and gender, oldest/newest employee, highest/lowest paid employee).
-
 ### `Assigment-1_Database_Module_Week2_-Waseem.sql`
-12 queries for the **Sakila** rental database (PostgreSQL port), covering filtering with `IN`, sorting with `NULLS LAST`, `JOIN`s across `film`, `inventory`, `rental` and `payment`, `NULL` checks, and aggregate functions (`COUNT`, `SUM`, `MAX`, `MIN`). Load the Sakila sample database first, then run the file in `psql`, pgAdmin or DBeaver.
+12 queries for the **Sakila** rental database (PostgreSQL port), covering filtering with `IN`, sorting with `NULLS LAST`, `JOIN`s across `film`, `inventory`, `rental` and `payment`, `NULL` checks, and aggregate functions (`COUNT`, `SUM`, `MAX`, `MIN`). Load the Sakila sample database first, then run the file in  pgAdmin 
+
+### `Assigment-2_Database_Module_Week2_-Waseem.py`
+Creates the `employees` and `departments` tables, inserts 10 sample employees with their departments, and prints the results of 10 report queries (salary comparisons, averages per department and gender, oldest/newest employee, highest/lowest paid employee).
 
 ---
 
