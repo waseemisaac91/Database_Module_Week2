@@ -118,7 +118,7 @@ erDiagram
 ### 1. Install dependencies
 
 ```bash
-pip install PyQt6 psycopg2-binary
+python -m pip install PyQt6 psycopg2
 ```
 
 ### 2. Create the database
